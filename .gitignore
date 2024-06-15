@@ -147,8 +147,6 @@ env/
 env.bak/
 venv.bak/
 
-# PyInstaller
-*.spec
 
 # Compiled files
 *.pyc
