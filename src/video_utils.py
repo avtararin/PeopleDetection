@@ -63,8 +63,8 @@ class Detector:
         """
         Load Yolo model from repository.
         """
-        #self.model = torch.hub.load('ultralytics/yolov5', model='yolov5s')
-        self.model = YOLO("yolov8n.pt")
+        self.model = torch.hub.load('ultralytics/yolov5', model='yolov5s')
+        #self.model = YOLO("yolov8n.pt")
 
     @staticmethod
     def draw_detections(frame, detections):
